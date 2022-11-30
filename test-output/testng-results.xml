@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-11-30T11:37:56 CET" name="OrangeHRM" finished-at="2022-11-30T11:39:41 CET" duration-ms="105574">
+    <groups>
+    </groups>
+    <test started-at="2022-11-30T11:37:56 CET" name="EndToEndTest" finished-at="2022-11-30T11:39:41 CET" duration-ms="105574">
+      <class name="com.OrangeHrm.tests.LoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.OrangeHrm.tests.LoginTest@95e33cc]" started-at="2022-11-30T11:37:56 CET" name="setup" finished-at="2022-11-30T11:38:47 CET" duration-ms="50770" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLoginPageTitle()[pri:1, instance:com.OrangeHrm.tests.LoginTest@95e33cc]" started-at="2022-11-30T11:38:47 CET" name="verifyLoginPageTitle" description="Verify  login page title on login page" finished-at="2022-11-30T11:38:48 CET" duration-ms="949" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPageTitle -->
+        <test-method signature="testLoginPage()[pri:2, instance:com.OrangeHrm.tests.LoginTest@95e33cc]" started-at="2022-11-30T11:38:48 CET" name="testLoginPage" description="Testing Login functionality with username and Password" finished-at="2022-11-30T11:38:49 CET" duration-ms="767" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginPage -->
+        <test-method is-config="true" signature="tearDonw()[pri:0, instance:com.OrangeHrm.tests.LoginTest@95e33cc]" started-at="2022-11-30T11:38:49 CET" name="tearDonw" finished-at="2022-11-30T11:38:50 CET" duration-ms="1431" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDonw -->
+      </class> <!-- com.OrangeHrm.tests.LoginTest -->
+      <class name="com.OrangeHrm.tests.PIMTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.OrangeHrm.tests.PIMTest@291f18]" started-at="2022-11-30T11:38:50 CET" name="setup" finished-at="2022-11-30T11:39:10 CET" duration-ms="20046" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="loadlogin()[pri:0, instance:com.OrangeHrm.tests.PIMTest@291f18]" started-at="2022-11-30T11:39:10 CET" name="loadlogin" finished-at="2022-11-30T11:39:18 CET" duration-ms="7365" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadlogin -->
+        <test-method signature="addemployeeTest(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.OrangeHrm.tests.PIMTest@291f18]" started-at="2022-11-30T11:39:18 CET" name="addemployeeTest" description="Should be able to add new employee correctly" data-provider="loginData" finished-at="2022-11-30T11:39:30 CET" duration-ms="12754" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Seif]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Dine]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Tunisia]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addemployeeTest -->
+        <test-method signature="deleteEmployee(java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:com.OrangeHrm.tests.PIMTest@291f18]" started-at="2022-11-30T11:39:30 CET" name="deleteEmployee" description="Should be able to delete employee correctly" data-provider="loginData" finished-at="2022-11-30T11:39:40 CET" duration-ms="9297" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Seif]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Dine]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Tunisia]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteEmployee -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.OrangeHrm.tests.PIMTest@291f18]" started-at="2022-11-30T11:39:40 CET" name="close" finished-at="2022-11-30T11:39:40 CET" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="tearDonw()[pri:0, instance:com.OrangeHrm.tests.PIMTest@291f18]" started-at="2022-11-30T11:39:40 CET" name="tearDonw" finished-at="2022-11-30T11:39:41 CET" duration-ms="1568" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDonw -->
+      </class> <!-- com.OrangeHrm.tests.PIMTest -->
+    </test> <!-- EndToEndTest -->
+  </suite> <!-- OrangeHRM -->
+</testng-results>
