@@ -11,6 +11,6 @@ Programming Language: Java
 
 Build Tool: Maven
 
-Report tool : Allure Report
+Report tool : Allure Report 
 
-Website link: www.opensource-demo.orangehrmlive.com
+Website link: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
